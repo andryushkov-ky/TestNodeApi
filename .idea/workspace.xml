@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15bd96d0-f78f-4d48-b35e-31293894d830" name="Default" comment="[master] add new api route DELETE /todos/:id">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/test/server.test.js" />
+    <list default="true" id="15bd96d0-f78f-4d48-b35e-31293894d830" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/db/mongoose.js" afterPath="$PROJECT_DIR$/server/db/mongoose.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/models/user.js" afterPath="$PROJECT_DIR$/server/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,72 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mongodb-find.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playground/mongodb-find.js">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1504776803403" expanded="true" signature="39529:39678" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="39529:39696" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="39529:39709" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="39529:40530" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="39771:40112" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="39833:40099" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="39878:40081" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="40176:40515" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="40238:40502" ph="..." />
-                <marker date="1504776803403" expanded="true" signature="40284:40484" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongoose.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/db/mongoose.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/config/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/test/server.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2822">
-              <caret line="166" column="9" lean-forward="false" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,38 +30,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="103" column="3" lean-forward="true" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/todo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="507">
+              <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -152,8 +59,9 @@
         <option value="$PROJECT_DIR$/playground/mongodb-find.js" />
         <option value="$PROJECT_DIR$/server/config/config.js" />
         <option value="$PROJECT_DIR$/server/db/mongoose.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/test/server.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/models/user.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
       </list>
     </option>
@@ -413,7 +321,7 @@
       <option name="presentableId" value="Default" />
       <updated>1504752928108</updated>
       <workItem from="1504752929359" duration="10216000" />
-      <workItem from="1504776642311" duration="280000" />
+      <workItem from="1504776642311" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary="[master] preparation for heroku">
       <created>1504756472862</created>
@@ -436,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504761152103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[master] add test">
+      <created>1504776945820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504776945820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11711000" />
+    <option name="totallyTimeSpent" value="13621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2009" y="24" width="1800" height="982" extended-state="0" />
@@ -503,7 +418,8 @@
     <MESSAGE value="[master] preparation for heroku" />
     <MESSAGE value="[master] add new api GET todo/:id" />
     <MESSAGE value="[master] add new api route DELETE /todos/:id" />
-    <option name="LAST_COMMIT_MESSAGE" value="[master] add new api route DELETE /todos/:id" />
+    <MESSAGE value="[master] add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="[master] add test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,16 +441,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504776803403" expanded="true" signature="39529:39678" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:39696" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:39709" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:40530" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39771:40112" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39833:40099" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39878:40081" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40176:40515" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40238:40502" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40284:40484" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36100" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36118" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36131" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -654,16 +564,10 @@
         <state relative-caret-position="-255">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504776803403" expanded="true" signature="39529:39678" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:39696" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:39709" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:40530" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39771:40112" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39833:40099" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39878:40081" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40176:40515" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40238:40502" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40284:40484" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36100" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36118" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36131" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -725,49 +629,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504776803403" expanded="true" signature="39529:39678" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:39696" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:39709" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39529:40530" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39771:40112" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39833:40099" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="39878:40081" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40176:40515" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40238:40502" ph="..." />
-            <marker date="1504776803403" expanded="true" signature="40284:40484" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36100" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36118" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36131" ph="..." />
+            <marker date="1504778823654" expanded="true" signature="36058:36146" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="3" lean-forward="true" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,8 +647,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/test/server.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="166" column="9" lean-forward="false" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+        <state relative-caret-position="-289">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -791,6 +665,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
