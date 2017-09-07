@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15bd96d0-f78f-4d48-b35e-31293894d830" name="Default" comment="[master] add new api GET todo/:id">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground/mongodb-remove.js" />
+    <list default="true" id="15bd96d0-f78f-4d48-b35e-31293894d830" name="Default" comment="[master] add new api route DELETE /todos/:id">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+            <state relative-caret-position="269">
+              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/playground/mongodb-remove.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -42,10 +42,10 @@
             <state relative-caret-position="-255">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1504760978888" expanded="true" signature="25113:25155" ph="..." />
-                <marker date="1504760978888" expanded="true" signature="25113:25173" ph="..." />
-                <marker date="1504760978888" expanded="true" signature="25113:25186" ph="..." />
-                <marker date="1504760978888" expanded="true" signature="25113:25201" ph="..." />
+                <marker date="1504764584245" expanded="true" signature="25895:25937" ph="..." />
+                <marker date="1504764584245" expanded="true" signature="25895:25955" ph="..." />
+                <marker date="1504764584245" expanded="true" signature="25895:25968" ph="..." />
+                <marker date="1504764584245" expanded="true" signature="25895:25983" ph="..." />
               </folding>
             </state>
           </provider>
@@ -86,7 +86,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
+              <folding>
+                <marker date="1504761860990" expanded="true" signature="240:379" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -321,7 +323,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504752928108</updated>
-      <workItem from="1504752929359" duration="7893000" />
+      <workItem from="1504752929359" duration="10216000" />
     </task>
     <task id="LOCAL-00001" summary="[master] preparation for heroku">
       <created>1504756472862</created>
@@ -337,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504758978446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[master] add new api route DELETE /todos/:id">
+      <created>1504761152103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504761152103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7893000" />
+    <option name="totallyTimeSpent" value="10216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1941" y="34" width="1800" height="982" extended-state="0" />
@@ -402,7 +411,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[master] preparation for heroku" />
     <MESSAGE value="[master] add new api GET todo/:id" />
-    <option name="LAST_COMMIT_MESSAGE" value="[master] add new api GET todo/:id" />
+    <MESSAGE value="[master] add new api route DELETE /todos/:id" />
+    <option name="LAST_COMMIT_MESSAGE" value="[master] add new api route DELETE /todos/:id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -421,7 +431,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1504761860990" expanded="true" signature="240:379" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +464,7 @@
     <entry file="file://$PROJECT_DIR$/playground/mongodb-remove.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -462,18 +474,18 @@
         <state relative-caret-position="-255">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504760978888" expanded="true" signature="25113:25155" ph="..." />
-            <marker date="1504760978888" expanded="true" signature="25113:25173" ph="..." />
-            <marker date="1504760978888" expanded="true" signature="25113:25186" ph="..." />
-            <marker date="1504760978888" expanded="true" signature="25113:25201" ph="..." />
+            <marker date="1504764584245" expanded="true" signature="25895:25937" ph="..." />
+            <marker date="1504764584245" expanded="true" signature="25895:25955" ph="..." />
+            <marker date="1504764584245" expanded="true" signature="25895:25968" ph="..." />
+            <marker date="1504764584245" expanded="true" signature="25895:25983" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="269">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding />
         </state>
       </provider>
