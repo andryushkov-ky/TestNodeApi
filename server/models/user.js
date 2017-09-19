@@ -70,7 +70,7 @@ UserSchema.statics.findByToken = function (token) {
     let decoded;
 
     try {
-        decoded = jwt.verify(token, 'secretcode');
+        decoded = jwt.verify(token, process.env.JWT_SECRET);
     } catch (e) {
         // return new Promise((resolve, reject) => {
         //     reject();
