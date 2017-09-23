@@ -83,6 +83,7 @@ const getStatus = (userId) => {
 
  */
 
+
 //always return Promise
  const getStatusAlt = async (userId) => {
     const user = await getUser(userId);
